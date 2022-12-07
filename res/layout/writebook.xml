@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/back" >
+
+    <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+        <ImageView
+            android:layout_width="100px"
+       		android:layout_height="80dp"   
+       		android:src="@drawable/a3" 
+            />   
+	    <TextView
+	        android:layout_width="200px"
+	        android:layout_height="80dp"
+	        android:text="**新建小说**" 
+	        android:gravity="center"
+	        android:textColor="#000"
+       	    />        
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"> 
+        <TextView 
+            android:layout_width="100px"
+      		android:layout_height="wrap_content"
+      		android:gravity="center"
+      		android:text=" 标题 : "
+      		android:textColor="#000"
+            />
+        <EditText 
+            android:id="@+id/newnotenametxt"
+	        android:layout_width="200px"
+       		android:layout_height="wrap_content" 
+       		android:text="请输入你的标题"  
+       		android:textColor="#A3A3A3"  
+	        />
+    </LinearLayout>
+
+    <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        
+        <TextView 
+            android:layout_width="100px"
+      		android:layout_height="wrap_content"
+      		android:gravity="center"
+      		android:text="    作者  ：  "
+      		android:textColor="#000"
+            />
+        <EditText 
+            android:id="@+id/newauthornametxt"
+	        android:layout_width="200dp"
+       		android:layout_height="wrap_content" 
+       		android:text="佚名"  
+       		android:textColor="#A3A3A3"
+   	        />
+    </LinearLayout>
+    <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        
+        <TextView
+            android:layout_width="100px"
+      		android:layout_height="wrap_content"
+      		android:gravity="center"
+      		android:text=" 当前时间  ：  "
+      		android:textColor="#000"
+            />
+        <TextView 
+            android:id="@+id/currenttimetxt"
+	        android:layout_width="200dp"
+       		android:layout_height="wrap_content"  
+       		android:gravity="center"       
+	        />
+    </LinearLayout>
+    <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        
+        <TextView
+            android:layout_width="100px"
+      		android:layout_height="wrap_content"
+      		android:gravity="center"
+      		android:text=" 小说类型 ：  "
+      		android:textColor="#000"
+            />
+        <EditText 
+            android:id="@+id/newType"
+	        android:layout_width="200dp"
+       		android:layout_height="wrap_content"  
+       		android:gravity="center"  
+       		android:text="其他"  
+       		android:textColor="#A3A3A3"     
+	        />
+    </LinearLayout>
+    <EditText 
+        android:id="@+id/newcontenttxt"
+	    android:layout_width="fill_parent"
+        android:layout_height="300px" 
+        android:gravity="top"  
+        android:text="请输入你的内容"
+        android:textColor="#A3A3A3"
+        />
+</LinearLayout>

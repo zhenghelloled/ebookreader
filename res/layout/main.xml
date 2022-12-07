@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:mobile="http://mobile.blogjava.net" 
+	android:orientation="vertical"
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent">
+	<net.blogjava.mobile.widget.FileBrowser
+		android:id="@+id/filebrowser" 
+		 android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+		mobile:folderImage="@drawable/folder"
+		mobile:extName1="txt" 
+		mobile:fileImage1="@drawable/txt"
+		mobile:otherFileImage="@drawable/other"  />
+	
+	<LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="60dp"
+    	android:orientation="horizontal">
+    	<Button 
+    	    android:id="@+id/btn_add_book"
+    	    android:layout_width="0dp"
+	        android:layout_height="match_parent"
+	        android:layout_weight="1"
+	        android:textSize="28sp"
+	        android:text="加入书架"
+    	    />
+    	<Button 
+    	    android:id="@+id/btn_back_book"
+    	    android:layout_width="0dp"
+	        android:layout_height="match_parent"
+	        android:layout_weight="1"
+	        android:textSize="28sp"
+	        android:text="返回书架"
+    	    />
+        
+        
+    </LinearLayout>
+    
+</LinearLayout>

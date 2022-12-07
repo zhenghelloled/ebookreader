@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:mobile="http://mobile.blogjava.net" 
+	android:orientation="vertical"
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent">
+	
+    <ListView 
+        android:id="@+id/mybooklist"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        ></ListView>
+	
+	<LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="60dp"
+    	android:orientation="horizontal">
+    	<Button 
+    	    android:id="@+id/btn_my_delete"
+    	    android:layout_width="0dp"
+	        android:layout_height="match_parent"
+	        android:layout_weight="1"
+	        android:textSize="20sp"
+	        android:text="删除"
+    	    />
+    	<Button 
+    	    android:id="@+id/btn_my_query"
+    	    android:layout_width="0dp"
+	        android:layout_height="match_parent"
+	        android:layout_weight="1"
+	        android:textSize="20sp"
+	        android:text="查找"
+    	    />
+    	<Button 
+    	    android:id="@+id/btn_about"
+    	    android:layout_width="0dp"
+	        android:layout_height="match_parent"
+	        android:layout_weight="1"
+	        android:textSize="20sp"
+	        android:text="关于"
+    	    />
+    	
+    	<Button 
+    	    android:id="@+id/btn_newnote"
+    	    android:layout_width="0dp"
+	        android:layout_height="match_parent"
+	        android:layout_weight="1"
+	        android:textSize="20sp"
+	        android:text="新笔记"
+    	    />
+        
+        
+    </LinearLayout>
+    
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, MemorandumActivity!</string>
+    <string name="app_name">电子书阅读器</string>
+
+        <!-- 按钮说明 -->
+        <string name="about_but">关于</string>
+        <string name="newaNote_but">新笔记</string>
+        <string name="exit_but">取消</string>
+        <string name="edit_but">编辑</string>
+        <string name="del_but">删除</string>
+        <string name="check_but">查找</string>
+        <string name="save_but">保存</string>
+</resources>
