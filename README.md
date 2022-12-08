@@ -30,6 +30,74 @@ APP提供的服务如下：
 
 4、代码组织架构
 
+	# 目录结构
+
+	|----- Readme.md
+
+	|----- /MyEbookReader 		工程目录
+	|----- /MyEbookReader/src	源码目录
+	|----- /com/ketai/readdal/
+	|----- MyContentProvider.java		数据库的初始工作
+	|----- ReadSqliteOpenHelper.java	数据库表格生成
+	|----- /com/ketai/reader/
+	|----- DrawWaterWave.java			自定义波纹控件
+	|----- LabelList.java				书签界面
+	|----- LocalityRead.java			界面 本地书库
+	|----- LocalitySearch.java			界面 本地搜索
+	|----- Main.java					界面 我的笔记
+	|----- MyMainActivity.java			主界面容器
+	|----- NoteCheck.java				界面 查找内容
+	|----- NoteEdit.java				界面 修改笔记
+	|----- NoteNew.java					界面 创建笔记
+	|----- NoteRead.java				界面 笔记读取
+	|----- OnlineRead.java				界面 在线阅读
+	|----- ReadBook.java				界面 阅读图书
+	|----- RecentlyRead.java			界面 最近阅读
+	|----- SearchSDcard.java			界面 本地文件加入书架
+	|----- WelcomeReader.java			界面 欢迎页
+	|----- WriteBook.java				界面 写书
+	|----- /net/blogjava/mobile/widget/	
+	|----- FileBrowser.java				文件浏览自定义控件
+	|----- OnFileBrowserListener.java	文件浏览监听接口
+	|----- /sf/hmg/turntest/
+	|----- BookPageFactory.java			阅读样式配置工具类
+	|----- PageWidget.java				阅读样式配置自定义预览控件
+	|----- turntest.java				阅读样式预览界面
+	|----- /gen							开发工具资源id自动生成
+	|----- /assets						原始文件使用目录
+	|----- /bin							编译二进制目录
+	|----- /res							资源文件目录
+		/res/layout/background.xml				背景界面
+		/res/layout/gridview_subitem.xml
+		/res/layout/labellist_item.xml			书签子项界面
+		/res/layout/labellist.xml				书签界面
+		/res/layout/listview_rating.xml	
+		/res/layout/localityread_check.xml		本地选择界面
+		/res/layout/localityread_list.xml
+		/res/layout/localityread_modification.xml
+		/res/layout/localityread.xml			书库界面	
+		/res/layout/localitysearch.xml
+		/res/layout/main.xml					主界面
+		/res/layout/memorandumread.xml			
+		/res/layout/mybook.xml					界面我的图书
+		/res/layout/note_addnew.xml				增加笔记
+		/res/layout/note_check.xml
+		/res/layout/note_edit.xml				笔记编辑
+		/res/layout/note_read.xml				笔记读取
+		/res/layout/onlineread.xml				在线阅读
+		/res/layout/progressskip_item.xml
+		/res/layout/readbook.xml				阅读图书
+		/res/layout/recentlyread.xml			最近阅读
+		/res/layout/simple_spinner_item001.xml
+		/res/layout/subitem.xml
+		/res/layout/textsettings.xml			配置样式
+		/res/layout/textsize.xml				配置字体大小
+		/res/layout/textspace.xml				配置行间距
+		/res/layout/welcome.xml					欢迎页
+		/res/layout/writebook.xml				写书
+	|----- /AndroidManifest.xml			安卓主配置清单
+	|----- /proguard.cfg				工程变量配置
+	|----- /project.properties			工程版本配置
 
 
 5、版本更新内容摘要
